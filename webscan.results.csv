@@ -1,0 +1,2 @@
+host,port,open,status_code,title,server_header,cert_subject_cn,cert_notAfter,banner_snippet,fingerprint_tags
+scanme.nmap.org,80,True,200,Go ahead and ScanMe!,Apache/2.4.7 (Ubuntu),,,,

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "run_started": "2025-12-14T23:10:13.208559",
+    "args": {
+      "targets": "targets.txt",
+      "ports": "80,443,8080,8443",
+      "workers": 20,
+      "http": true,
+      "tls": true,
+      "output": "webscan",
+      "timeout": 5.0,
+      "resume": false,
+      "verbose": false
+    },
+    "resumed": false
+  },
+  "targets": {
+    "scanme.nmap.org": {
+      "ports": {
+        "80": {
+          "status": "open",
+          "scanned_at": "2025-12-14T23:10:13.351597",
+          "http": {
+            "url": "http://scanme.nmap.org:80/",
+            "final_url": "http://scanme.nmap.org:80/",
+            "status_code": 200,
+            "title": "Go ahead and ScanMe!",
+            "meta_description": "",
+            "server_header": "Apache/2.4.7 (Ubuntu)",
+            "cookies": [],
+            "error": "",
+            "scanned_at": "2025-12-14T23:10:15.494372"
+          }
+        },
+        "443": {
+          "status": "refused",
+          "scanned_at": "2025-12-14T23:10:16.065506"
+        },
+        "8080": {
+          "status": "refused",
+          "scanned_at": "2025-12-14T23:10:16.065524"
+        },
+        "8443": {
+          "status": "refused",
+          "scanned_at": "2025-12-14T23:10:16.065542"
+        }
+      }
+    }
+  }
+}
