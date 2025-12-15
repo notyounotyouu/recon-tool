@@ -40,7 +40,7 @@ All other functionality uses Python's standard library.
 3. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install cryptography
 ```
 
 4. Create necessary files:
